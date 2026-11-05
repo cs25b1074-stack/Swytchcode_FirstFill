@@ -100,7 +100,7 @@ Full details (step, command, expected, actual, what I tried, resolved?) are in [
 
 ## Demo
 
-Video: _[add Loom / YouTube link]_
+Video: https://youtu.be/kNKEIls-QU4
 
 ## Notes on the generated Wrekenfile
 
@@ -122,4 +122,4 @@ Observations:
 
 ## AI usage
 
-I used **Claude** as a guide: to explain concepts (APIs, HTTP, Wrekenfiles), interpret error messages, and suggest commands and the `spawnSync` fallback. I ran every command myself, debugged the file-location and environment-variable issues, verified each output, and wrote the friction diary from what I observed.
+I used **Claude** (Anthropic) as a guide: to explain concepts (APIs, HTTP, Wrekenfiles), interpret error messages, suggest commands, and propose the `spawnSync` fallback when `swytchcode-runtime` turned out to be unpublished. It also helped structure this README, the friction diary and the demo script. I ran every command myself, debugged the file-location and environment-variable issues, and verified each output; the friction points come from what I actually hit.

@@ -97,8 +97,6 @@ Each entry: **Step** · **Command / action** · **Expected** · **Actual** · **
 - **Tried next:** Followed the warning's suggestion: `export SWYTCHCODE_BASE_URL_RESEND_RESEND_SANDBOX=https://api.resend.com`
 - **Resolved?** Yes with a workaround. Note: "sandbox" mode now sends real emails. The default mode recommended at `init` doesn't work out of the box for Resend.
 
-![Dry run sending to base-url-not-set.invalid](screenshots/base-url-not-set.png)
-
 ## 11. `swytchcode-runtime` npm package is unpublished
 
 - **Step:** Building the Node example (assignment step 4)
@@ -107,8 +105,6 @@ Each entry: **Step** · **Command / action** · **Expected** · **Actual** · **
 - **Actual:** `npm error code ENOVERSIONS / No versions available for swytchcode-runtime`. `npm view swytchcode-runtime` → `404 Unpublished on 2026-07-16T14:34:19.875Z`
 - **Tried next:** Searched the web (found it listed on pkgstats, v0.1.5); used the `spawnSync` pattern from the CLI README to call `swytchcode exec` directly
 - **Resolved?** Worked around it. The recommended path for JavaScript developers is broken.
-
-![npm view shows swytchcode-runtime unpublished](screenshots/npm-runtime-unpublished.png)
 
 ---
 
@@ -126,7 +122,3 @@ Each entry: **Step** · **Command / action** · **Expected** · **Actual** · **
 - Clear success: email ID `01a1ac03-361a-7d98-8507-70952accd8cb` delivered to my inbox.
 
 ![First Fill welcome email in Gmail](screenshots/Swytchcode-1.png)
-
-## Demo Video
-
-https://youtu.be/kNKElIs-QU4?si=TsN_4-rs_fmfi67j
